@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Algorithmes de recheche</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Jean Diraison">
+    <meta name="description" content="version 1.0 - licence CC BY-NC 2.0 (2021)">
+    <link rel="stylesheet" href="style.css">
+    <script src="recherche.js"></script>
+</head>
+<body>
+<header>
+    <h1 onclick="changer_algo();">Algorithme de Horspool</h1>
+</header>
+<nav>
+    <form>
+        <label for="iphrase">phrase</label><input id="iphrase" onkeyup="update()"><br>
+        <label for="imotif">motif</label><input id="imotif" onkeyup="update()"><br>
+        <label for="deplacer">action </label><span>
+        <button onclick="commencer()" type="button" >&lt;&lt;</button>
+        <button onclick="reculer()" type="button" >&lt;</button>
+        <button onclick="avancer()" type="button" id="deplacer">&gt;</button>
+        <button onclick="terminer()" type="button" >&gt;&gt;</button></span><br>
+    </form>
+    <table id="decalages"></table>
+</nav>
+<section>
+    <h2 id="comparaisons">0</h2><h2>comparaisons</h2>
+    <div id="phrase"></div>
+    <div id="motif"></div>
+</section>
+</body>
+</html>
