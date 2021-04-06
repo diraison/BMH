@@ -15,3 +15,7 @@ Il est écrit sans framework, en pure HTML+CSS+Javascript.
 
 Il est placé sous la licence CC BY-NC 2.0.
 
+
+# Lien
+
+[Boyer-Moore-Horspool (GitHub Pages)](https://diraison.github.io/BMH/).
