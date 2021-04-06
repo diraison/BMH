@@ -5,6 +5,8 @@ Ceci est un outil de présentation d'algorithmes de recherche de chaîne de cara
 * algorithme de Horspool
 * algorithme de Boyer-Moore (bad character rule)
 
+Pour changer d'algorithme, il suffit de cliquer sur le titre en haut de la page.
+
 
 # Informations
 
